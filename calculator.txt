@@ -1,0 +1,7 @@
+assign id
+buttons
+javascript functions
+css grid
+html
+display block - top part small div
+              - bottom part bigger div
