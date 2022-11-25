@@ -37,39 +37,28 @@ h1{
     line-height: 20px;
     padding-right: 20px;
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 23px;
     background-color: whitesmoke;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    word-wrap: break-word;
 }
 
 .display{
+    word-wrap: break-word;
+    color: rgb(34, 34, 34);
     text-align: right;
-    /* padding: 10px; */
     height: 60px;
     line-height: 70px;
     padding-right: 20px;
-    font-size: 23px;
+    font-size: 25px;
     background-color: whitesmoke;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
 
-/* #clear{
-    border-top-left-radius: 5px;
-}
-
-#divide{
-    border-top-right-radius: 5px;
-}
-
-#decimal{
-    border-bottom-left-radius: 5px;
-} */
-
 #equal{
-    /* border-bottom-right-radius: 5px; */
     background-color: rgb(4, 161, 213);
 }
 
@@ -91,7 +80,6 @@ button{
 button:hover{
     background-color: rgb(143, 138, 138);
     color: white;
-    /* transition: 0.5s ease-in-out; */
 }
 
 @media screen and (width <= 500px){
@@ -106,7 +94,7 @@ button:hover{
         grid-template-rows: minmax(120px) repeat(5, 70px);
         justify-content: center;
         align-content: center;
-        /* border-radius: 5px; */
+        border-radius: 5px;
     }
     button:hover{
         background-color: rgb(143, 138, 138);
