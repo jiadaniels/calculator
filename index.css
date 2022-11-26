@@ -10,7 +10,8 @@ h1{
 }
 
 .container{
-    max-width: 400px;
+    max-width: 350px;
+    max-height: 70vh;
     margin: 20px auto 0 auto;
     box-shadow: 0px 0px 15px 10px rgb(176, 174, 174);
     display: grid;
@@ -33,28 +34,30 @@ h1{
 
 .small-display{
     text-align: right;
-    height: 5px;
-    line-height: 20px;
+    height: 10px;
+    line-height: 30px;
     padding-right: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 23px;
-    background-color: whitesmoke;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.533);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     word-wrap: break-word;
+    color: white;
 }
 
 .display{
     word-wrap: break-word;
     color: rgb(34, 34, 34);
     text-align: right;
-    height: 60px;
+    height: 70px;
     line-height: 70px;
     padding-right: 20px;
     font-size: 25px;
-    background-color: whitesmoke;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.533);
+    color: rgb(203, 184, 148);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 
@@ -86,6 +89,7 @@ button:hover{
     button{
         text-align: center;
         display: grid;
+        color: rgb(15, 15, 15);
     }
     .container{
         box-shadow: 0px 0px 15px 10px rgb(176, 174, 174);

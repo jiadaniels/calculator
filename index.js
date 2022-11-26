@@ -1,7 +1,6 @@
 let display = document.getElementById('display');
 let input = document.getElementById('input');
 let buttons = Array.from(document.getElementsByTagName('button'));
-let multiply = document.getElementById('multiply');
 
 buttons.map(button => {
     button.addEventListener('click' , (e) => {
@@ -25,5 +24,6 @@ buttons.map(button => {
             default:
                 input.innerText += e.target.innerText;
         }
+        
     });
 });
